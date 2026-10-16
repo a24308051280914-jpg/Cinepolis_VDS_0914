@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Cinépolis</title>
+
+
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+            background-color: whitesmoke;
+        }
+    
+        header {
+            background-color: navy;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    
+        nav {
+            background-color: midnightblue;
+            text-align: center;
+            padding: 15px;
+        }
+    
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+        }
+    
+        section {
+            background-color: white;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 10px;
+        }
+    
+        h2 {
+            color: navy;
+            text-align: center;
+        }
+    
+        .peliculas {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+    
+        .pelicula {
+            background-color: aliceblue;
+            padding: 15px;
+            width: 180px;
+            text-align: center;
+            border-radius: 10px;
+        }
+    
+        .pelicula img {
+            width: 100%;
+            height: 230px;
+            object-fit: cover;
+        }
+    
+        form {
+            text-align: center;
+        }
+    
+        input, select {
+            width: 90%;
+            padding: 10px;
+            margin: 8px 0;
+            box-sizing: border-box;
+        }
+    
+        form input, form select {
+            display: block;
+            margin: 8px auto;
+        }
+    
+        button {
+            background-color: navy;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            cursor: pointer;
+        }
+    
+        form button {
+            display: block;
+            margin: 10px auto;
+        }
+    
+        footer {
+            background-color: midnightblue;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+    
+        
+        form {
+        text-align: center;
+        }
+
+        form input, form select {
+        display: block;
+        margin: 8px auto;
+        }
+
+        form button {
+        display: block;
+        margin: 10px auto;
+        }
+        
+        section:first-of-type {
+            text-align: center;
+        }
+
+        #club {
+            text-align: center;
+        }
+
+        #club img {
+            display: block;
+            margin: auto;
+        }
+
+    </style>
+</head>
+
+<body id="inicio">
+
+    <header>
+        <h1>CINÉPOLIS</h1>
+    </header>
+
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#cartelera">Cartelera</a>
+        <a href="#estrenos">Próximos estrenos</a>
+        <a href="#club">Cinépolis Club</a>
+    </nav>
+
+    <section>
+        <h2>¡Bienvenido a Cinépolis!</h2>
+        <p>
+            Disfruta de las mejores películas, conoce los próximos
+            estrenos y vive la magia del cine con nosotros.
+        </p>
+    </section>
+
+    <section id="cartelera">
+        <h2>Películas en cartelera</h2>
+
+        <div class="peliculas">
+
+            <div class="pelicula">
+                <img src="imagenes/pelicula1.jpg" >
+                <h3> TU NOMBRE </h3>
+                <h4> Clasificacion TBC </h4>
+                <p>Mitsuha, una adolescente que vive en un pequeño pueblo de Japón, sueña con escapar de su vida cotidiana y conocer una ciudad llena de oportunidades.
+                </p>
+            </div>
+
+            <div class="pelicula">
+                <img src="imagenes/pelicula2.jpg" >
+                <h3> HOPE: EL PRIMER IMPACTO </h3>
+                <h4> Clasificacion B15</h4>
+                <p>Un misterioso descubrimiento se realiza en las afueras de la remota ciudad del puerto. Los residentes se encuentran en una lucha desesperada por la supervivencia.</p>
+            </div>
+
+            <div class="pelicula">
+                <img src="imagenes/pelicula3.jpg" >
+                <h3> CLAYFACE </h3>
+                <h4>Clasificacion C</h4> 
+                <p> Matt Hagen, de joven de las calles de Gotham a estrella de Hollywood, se ve trágicamente truncado cuando las acciones de un jefe del crimen local lo dejan horriblemente desfigurado. </p>
+            </div>
+
+            <div class="pelicula">
+                <img src="imagenes/pelicula4.jpg" >
+                <h3> COYOTE VS ACME </h3>
+                <h4>Clasificacion A </h4>
+                <p>Coyote decide demandar a ACME. El coyote más emblemático junto con el universo de los Looney Toones, está decidido a desmantelar un imperio y enfrentar a su implacable CEO. </p>
+            </div>            
+
+            <div class="pelicula">
+                <img src="imagenes/pelicula5.jpg">
+                <h3>EL ARBOL MAGICO</h3>
+                <h4>Clasificacion A</h4> 
+                <p>Tres hermanos descubren en el campo un árbol mágico que conecta con mundos fantásticos, cuyas aventuras unirán de nuevo a su familia.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="estrenos">
+        <h2>Próximos estrenos</h2>
+
+        <div class="peliculas">
+
+            <div class="pelicula">
+                <img src="imagenes/estreno1.jpg">
+                <h3>LA CAIDA DE LA BALLENA</h3>
+                <h4>24/10/2026</h4>
+                <p>Muy pronto</p>
+            </div>
+
+            <div class="pelicula">
+                <img src="imagenes/estreno2.jpg" >
+                <h3>LA ISLA DE LAS MUÑECAS</h3>
+                <h4>28/10/2026</h4>
+                <p>Muy pronto</p>
+            </div>
+
+            <div class="pelicula">
+                <img src="imagenes/estreno3.jpg" >
+                <h3>EL FINAL</h3>
+                <h4>26/10/2026</h4>
+                <p>Muy pronto</p>
+            </div>
+
+            <div class="pelicula">
+                <img src="imagenes/estreno4.jpg" >
+                <h3>CRISTIADA</h3>
+                <h4>30/10/2026</h4>
+                <p>Muy pronto</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="club">
+        <h2>Cinépolis Club</h2>
+
+        <img src="imagenes/cinepolisclub.jpg"
+             width="250">
+
+        <h3> ¡Únete a Cinépolis Club! Llena el siguiente formulario para registrarte y conocer los beneficios de nuestra membresía. </h3>
+
+        <form onsubmit="alert('¡Gracias por registrarte en Cinépolis Club!'); return false;">
+
+            <label>Nombre:</label><br>
+            <input type="text" name="nombre"
+                   placeholder="Escribe tu nombre" required>
+            <br>
+
+            <label>Apellidos:</label><br>
+            <input type="text" name="apellidos"
+                   placeholder="Escribe tus apellidos" required>
+            <br>
+
+            <label>Correo electrónico:</label><br>
+            <input type="email" name="correo"
+                   placeholder="Escribe tu correo" required>
+            <br>
+
+            <label>Fecha de nacimiento:</label><br>
+            <input type="date" name="fecha" required>
+            <br>
+
+            <label>Contraseña:</label><br>
+            <input type="password" name="contrasena"
+                   placeholder="Crea una contraseña" required>
+            <br><br>
+
+            <button type="submit">Registrarme</button>
+
+        </form>
+    </section>
+
+    <footer>
+        <p>Cinépolis | Villa Diaz Sofia | 5°J | 0914</p>
+    </footer>
+
+</body>
+</html>
